@@ -129,3 +129,11 @@
 		item "Require Type::Params v2."^^Update;
 		item "The `multimethods_from_roles` function has been removed."^^BackCompat;
 	].
+
+`Sub-MultiMethod 1.001 cpan:TOBYINK`
+	issued  2025-09-19;
+	changeset [
+		item "Optimization. Now around ten times faster for simple cases with positional signatures and no coercion."^^Change;
+		item "Added `want` option and associated exportable constants."^^Addition;
+		item "Added `if` option."^^Addition;
+	].
